@@ -475,15 +475,15 @@ the \"Gen RGB\" column in noctilux-definitions.el to improve them further."
              ;; parenface
              (paren-face ((t (,@fg-base01))))
              ;; rainbow-delimiters
-             (rainbow-delimiters-depth-1-face ((t (,@fg-cyan))))
-             (rainbow-delimiters-depth-2-face ((t (,@fg-yellow))))
-             (rainbow-delimiters-depth-3-face ((t (,@fg-blue))))
-             (rainbow-delimiters-depth-4-face ((t (,@fg-red))))
-             (rainbow-delimiters-depth-5-face ((t (,@fg-green))))
-             (rainbow-delimiters-depth-6-face ((t (,@fg-blue))))
-             (rainbow-delimiters-depth-7-face ((t (,@fg-orange))))
-             (rainbow-delimiters-depth-8-face ((t (,@fg-magenta))))
-             (rainbow-delimiters-depth-9-face ((t (,@fg-base0))))
+             ;;(rainbow-delimiters-depth-1-face ((t (,@fg-cyan))))
+             ;;(rainbow-delimiters-depth-2-face ((t (,@fg-yellow))))
+             ;;(rainbow-delimiters-depth-3-face ((t (,@fg-blue))))
+             ;;(rainbow-delimiters-depth-4-face ((t (,@fg-red))))
+             ;;(rainbow-delimiters-depth-5-face ((t (,@fg-green))))
+             ;;(rainbow-delimiters-depth-6-face ((t (,@fg-blue))))
+             ;;(rainbow-delimiters-depth-7-face ((t (,@fg-orange))))
+             ;;(rainbow-delimiters-depth-8-face ((t (,@fg-magenta))))
+             ;;(rainbow-delimiters-depth-9-face ((t (,@fg-base0))))
              ;; slime
              (slime-error-face ((t (,@fmt-revr ,@fg-red)))) ; ErrorMsg
              (slime-note-face ((t (,@fg-yellow))))
